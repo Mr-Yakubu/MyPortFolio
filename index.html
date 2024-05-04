@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ed9a95ee37.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="portfolioimages/logo2.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi! I'm <span>Jacob</span><br>Gakere From Kenya</h1>
+        </div>
+    </div>
+</div>
+
+<!---------------------about-------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="portfolioimages/Second B7W.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title" >About Me</h1>
+                <p><p>I am an aspiring UI/UX designer with a diverse skill set. From my artistic eye to my technical know-how in the world of IT.
+                    Driven by an insatiable curiosity, my interests gravitate towards the intersection of aesthetics and functionality. 
+                    UI/UX design isn't just a field of study for me; it's a canvas to craft intuitive digital experiences.
+                    Alongside that, my love for web design allows me to transform ideas into visually captivating and seamless online platforms.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>   
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                    <li><span>2021 - Current</span><br>UI/UX Design Training Online</li>
+                    <li><span>2022 - 2023</span><br>Web App Development Training at Strathmore Uni.</li>
+                    <li><span>2023 - 2024</span><br>Team Lead for Building Android/iOS app - MyRecipeBook</li>
+                    <li><span>2023 - 2024</span><br>Internship at GAKWA Ltd.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                    <li><span>2021 - Current</span><br>BBIT at Strathmore University<br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------Services------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>My journey into the digital landscape has been enriched by my proficiency in LaravelPHP. 
+                   Through this powerful framework, I've brought my visions to life, crafting robust and elegant web applications that not only meet but exceed expectations.</p>
+                   <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>In addition to my expertise in LaravelPHP, I'm deeply immersed in the realm of UI/UX design, though self taught and web design. 
+                   These passions converge seamlessly as I blend creativity with user-centric principles to craft immersive digital experiences.</p>
+                   <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>App Design</h2>
+                <p>App design for me has been marked by my expertise in Kotlin and object-oriented programming (OOP). 
+                   With these powerful tools at my disposal, I've embarked on exciting projects, including the development of a recipe book app that marries functionality with elegance.</p>
+                   <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photography</h2>
+                <p>Outside the realm of technology, I find solace and inspiration through the lens of a camera. 
+                   Photography isn't just a hobby; it's a means of storytelling, capturing moments that transcend time and space.</p>
+                   <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------porfolio----------------->
+<div id="porfoliio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <h2>Photography</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="portfolioimages/Bbubbles&BFs.jpg">
+                <div class="layer">
+                    <h3>Float</h3>
+                    <p>When times get tough, 
+                    we forget how weightless life can get.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolioimages/Cobwebs.jpg">
+                <div class="layer">
+                    <h3>Cobwebbed</h3>
+                    <p>Experiences make the best stories, 
+                       Dates and days, timeless memories.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolioimages/Faces.jpg">
+                <div class="layer">
+                    <h3>Faces</h3>
+                    <p>When times get tough, 
+                    we forget how weightless life can get.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> jacob.gakere21@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +254728629646</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/yakkubbu/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Yakkubbu"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://github.com/Mr-Yakubu"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jacob-g-5639962a8/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="portfolioimages/JACOB GAKERE CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yakubu. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+
+<!------- ABOUT SECTION IS DONE - EAZZYYYY ------>
+<script>
+
+    var tablinks = document .getElementsByClassName("tab-links");
+    var tabcontents = document .getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
