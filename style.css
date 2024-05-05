@@ -334,7 +334,7 @@ nav .fa-solid{
     #header{
         background-image: url(portfolioimages/BG.png);
     }
-    .headere-text{
+    .header-text{
         margin-top: 100%;
         font-size: 16px;
     }
@@ -351,7 +351,7 @@ nav .fa-solid{
         position: fixed;
         top: 0;
         right: -200px;
-        width: 20px;
+        width: 200px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
